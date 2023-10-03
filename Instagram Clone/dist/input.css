@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply h-6 cursor-pointer transition-transform hover:scale-125 duration-200 ease-out;
+  }
+  .imgComment {
+    @apply h-8 w-8 cursor-pointer rounded-full p-[1.5px] border border-red-500 group-hover:scale-110 hover:grayscale-[30%] transition-all duration-200 ease-out;
+  }
+  .story-img {
+    @apply h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out;
+  }
+}
